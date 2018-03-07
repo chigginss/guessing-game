@@ -14,8 +14,8 @@ def guessing_game():
     while repeat == "Y":
         start = int(raw_input("Choose a starting number: "))
         end = int(raw_input("Choose an ending number: "))
-        
-        number = randint(1, 100)
+
+        number = randint(start, end)
     # Get the player to chose a number between 1 and 100 rawinput
         print("%s, I'm thinking of a number between 1 and 100, guess my number! You only get three guesses!") % name
         # print try to guess my number!
